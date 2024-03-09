@@ -1,0 +1,45 @@
+.teamCard {
+    max-width: 360px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teamCard img {
+    width: 70%;
+    height: 40%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.teamCard .teamCardTitle {
+    color: #1661bfd9;
+    padding-top: 1rem;
+}
+.teamCard .teamCardJob {
+    color: #80808087;
+    padding-top: 0.5rem;
+    
+}
+.teamCard .teamCardDesc {
+    max-width: 280px;
+    color: #808080;
+    font-size: 13px;
+    padding-top: 1rem;
+    text-align: center;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.5rem;
+}
+.socials .iconLink {
+    color: #1661bfd9;
+}
+
+@media (max-width: 767px) {
+   .teamCard {
+      margin: 0 auto;
+   } 
+}

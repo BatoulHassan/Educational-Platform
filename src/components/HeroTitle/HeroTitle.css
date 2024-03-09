@@ -1,0 +1,39 @@
+.heroTitle {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.heroTitle h4,
+.heroTitle h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+.heroTitle h1 {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.heroTitle button {
+    display: block;
+    margin:  0 auto;
+    color: #ffffff;
+    background-color: #00adff;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+@media (max-width:767px) {
+    .heroTitle {
+        padding-top: 150px;
+    }
+    .heroTitle h4 {
+        font-size: 13px;
+    }
+    .heroTitle h1 {
+        font-size: 18px;
+    }
+}

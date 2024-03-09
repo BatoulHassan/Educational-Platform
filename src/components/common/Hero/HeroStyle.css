@@ -1,0 +1,24 @@
+.hero {
+    width: 100%;
+    min-height: calc(90vh - 150px);
+}
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-color: #1661bf;
+    opacity: 0.7;
+}

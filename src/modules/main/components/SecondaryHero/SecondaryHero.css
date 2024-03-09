@@ -1,0 +1,24 @@
+.secondary-hero {
+    max-width: 100vw;
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+}
+.secondary-hero img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+.secondary-hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-color: #1661bf;
+    opacity: 0.7;
+}

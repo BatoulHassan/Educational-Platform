@@ -1,0 +1,101 @@
+.pricing {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.pricing .pricing-title {
+    color: #1661bfd9;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: 70px;
+}
+.pricing .pricing-subtitle {
+    color: #808080;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.pricing .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 2rem;
+}
+ .pricing-card {
+    width: calc((100% / 3) - 20px);
+    border: 1px solid #80808014;
+    padding: 1.5rem 1rem 2rem;
+}
+.pricing .pricing-card .prCardTitle ,
+.pricing .pricing-card .cardPrice{
+    color: #1661bfd9;
+    text-align: center;
+}
+.pricing .pricing-card .cardPrice {
+    font-size: 30px;
+}
+.pricing .pricing-card .cardPriceBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.pricing .pricing-card .cardPriceBox .prMonth {
+    color: #808080;
+    font-size: 13px;
+}
+.pricing .pricing-card .pricingPara {
+    color: #808080;
+    font-size: 15px;
+    text-align: center;
+    padding: 1.5rem 0;
+    max-width: 250px;
+    margin: 0 auto;
+    line-height: 21px;
+}
+.pricing .pricing-card .prCardBtn {
+    border: 1px solid #1661bfd9;
+    color: #1661bfd9;
+    background-color: transparent;
+    padding: 0.6rem 0.6rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 12px;
+    display: block;
+    width: 110px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+    .pricing-card {
+       width: calc((100% / 2) - 20px);
+    }
+}
+
+@media (max-width: 767px) {
+    .pricing .pricing-card .prCardTitle {
+        font-size: 18px;
+    }
+    .pricing .pricing-card .cardPrice {
+        font-size: 25px;
+    }
+    .pricing .pricing-card .pricingPara {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pricing .cards-container {
+        justify-content: center;
+    }
+    .pricing-card {
+        width: 90%;
+    }
+    .pricing .pricing-title {
+        font-size: 25px;
+    }
+    .pricing .pricing-subtitle {
+        font-size: 12px;
+    }
+}

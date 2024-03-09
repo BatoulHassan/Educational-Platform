@@ -1,0 +1,94 @@
+footer {
+    background-color: #1661bf;
+}
+footer .container .first-row {
+    display: flex;
+    justify-content: space-between;
+}
+footer .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .container .first-row h4.title {
+    color: #ffffff;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+footer .container .first-row .about-col .about-para {
+    color: #ffffff;
+    max-width: 250px;
+    line-height: 20px;
+    padding-bottom: 1.3rem;
+    font-size: 13px;
+}
+footer .container .first-row .projects-col ul li:nth-child(2),
+footer .container .first-row .projects-col ul li:nth-child(3) {
+    text-transform: uppercase;
+}
+footer .container .first-row .projects-col ul li:not(:nth-child(5)) {
+    padding-bottom: 0.5rem;
+}
+footer .container .first-row .projects-col ul li {
+    color: #ffffffc7;
+    font-size: 13px;
+}
+.gallery-col img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 65px;
+    height: 55px;
+}
+footer .container .first-row .contact-col p {
+    color: #ffffff;
+    padding-bottom: 1.5rem;
+    font-size: 13px;
+}
+footer .container .first-row .contact-col ul li {
+    color: #ffffffc7;
+    padding-bottom: 0.5rem;
+    font-size: 13px;
+}
+footer .container .last-row {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+footer .container .last-row p {
+    color: #ffffffe0;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 1023px) {
+    footer .container .first-row {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about-col,
+    .projects-col,
+    .gallery-col,
+    .contact-col {
+        width: 40%;
+   }
+   footer .container .gallery-col h4.title {
+    padding-top: 1.3rem;
+   }
+}
+
+@media (max-width: 767px) {
+    .about-col,
+    .projects-col,
+    .gallery-col,
+    .contact-col {
+        width: 100%;
+   }
+   .about-col,
+    .projects-col,
+    .gallery-col {
+        padding-bottom: 3rem;
+    }
+    footer .container .gallery-col h4.title {
+        padding-top: 0;
+       }
+}

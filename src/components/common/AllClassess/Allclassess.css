@@ -1,0 +1,63 @@
+.allClassess {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.allClassess .container .classess-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px
+}
+.allClassess .container .classess-card {
+    width: calc((100% / 3) - 20px);
+    border: 1px solid #8080801c;
+    border-radius: 7px;
+    padding: 1rem 1rem 2.5rem;
+}
+.allClassess .container .classess-card .span-icon {
+    width: 30px;
+    display: block;
+    height: 30px;
+    background-color: white;
+    color: #1661bfd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1661bfd9;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.allClassess .container .classess-card .classess-card-title {
+    color: #1661bfd9;
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.allClassess .container .classess-card .classess-card-para {
+    color: #80808087;
+    text-align: center;
+    max-width: 300px;
+    padding-top: 0.5rem;
+    font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+    .allClassess .container .classess-card {
+        width: calc((100% / 2) - 20px);
+    }
+}
+
+@media (max-width: 767px) {
+    .allClassess .container .classess-card {
+        width: 90%;
+    }
+    .allClassess .container .classess-cards {
+        justify-content: center;
+    }
+    .allClassess .container .subtitle,
+    .allClassess .container .classess-card .classess-card-para {
+        font-size: 12px;
+    }
+    .allClassess .container .classess-card .classess-card-para {
+        margin: 0 auto;
+    }
+}

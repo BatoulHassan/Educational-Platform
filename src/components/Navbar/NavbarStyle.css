@@ -1,0 +1,99 @@
+.navbar {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+} 
+.navbar.fixedNav .container{
+    position: fixed;
+    z-index: 2;
+    background: #0b5cc1;
+    box-shadow: 0px 2px 12px 0px rgba(255,255,255,0.5);
+    top: 0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s linear;
+}
+.navbar .container .logo-container h1 {
+    color: #ffffff;
+    font-weight: 600;
+}
+.navbar .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #ffffffc7;
+}
+.navbar .nav-list .nav-item:nth-child(2) {
+    display: flex;
+    align-items: center;
+} 
+.navbar .nav-list .nav-item a {
+    text-decoration: none;
+    color: #ffffffc7;
+}
+.navbar .nav-list .nav-item a.active {
+    color: #ffffff;
+}
+.navbar .container .nav-btn {
+    border: none;
+    color: #ffffff;
+    background-color: #00adff;
+    padding: 0.6rem 0.6rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 12px;
+}
+.menueBtn {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+}
+.menuIcon {
+    color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+    .navbar .container .nav-btn {
+        display: none;
+    }
+    .menueBtn {
+        display: block;
+    }
+    .menueBtn:focus {
+        outline: none;
+    }
+    .navbar .container.mdContainer {
+        align-items: flex-start;
+        background: #0b5cc1;
+        padding: 1rem;
+        border-radius: 15px;
+        box-shadow: 0px 2px 12px 0px rgba(255,255,255,0.5);
+    }
+    .navbar .nav-list {
+        display: none;
+    }
+    .navbar .nav-list.colList {
+        display: block;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    .navbar .nav-list .nav-item {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1001px) {
+    .navbar .container .nav-btn {
+        display: block;
+    }
+    .menueBtn {
+        display: none;
+    }
+    
+}

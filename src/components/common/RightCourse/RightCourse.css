@@ -1,0 +1,17 @@
+.right-course {
+    padding-top: 100px;
+    background-color: #80808014;
+    padding-bottom: 70px;
+}
+.right-course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px
+}
+
+@media (max-width: 767px) {
+    .right-course-cards {
+        justify-content: center;
+    }
+}

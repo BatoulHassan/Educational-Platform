@@ -1,0 +1,47 @@
+.head {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ffffff38;;
+}
+.head .container {
+    display: flex;
+    justify-content: space-between;
+}
+.head .left-head ,
+.head .right-head{
+    display: flex;
+    gap: 1rem;
+}
+.head .info-box {
+    color: white;
+    opacity: 0.94;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.head .info-box .info-span {
+    margin-left: 0.2rem;
+}
+.head .right-head button {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:1023px) {
+    .head .info-box .info-span {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:767px) {
+    .head .left-head {
+        flex-direction: column;
+        gap: 0;
+    }
+    .head .info-box {
+        padding-bottom: 0.2rem;
+    }
+}

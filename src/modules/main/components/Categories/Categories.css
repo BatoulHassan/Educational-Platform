@@ -1,0 +1,81 @@
+.categories {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.categories .container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px
+}
+.categories .container h1.categoryTitle {
+    text-align: center;
+    color: #1661bfd9;
+}
+.categories .container .card {
+    width: calc((100% / 4) - 20px);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    gap: 15px;
+    background-color: #6bb1b13b;
+    padding: 1rem;
+    border-radius: 3px;
+}
+.categories .card-icon {
+    width: 25px;
+    display: block;
+    height: 25px;
+    background-color: white;
+    color: #00adff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.categories .right-box h3 {
+    color: #000000d9;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.categories .num-span {
+    margin-right: 5px;
+}
+.categories .right-box span {
+    color: grey;
+}
+.categories .container p {
+    text-align: center;
+    padding-top: 30px;
+}
+.categories .container p a {
+    color:  #1661bfd9;
+}
+
+@media (max-width: 1023px) {
+    .categories .container .card {
+        width: calc((100% / 3) - 20px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .categories .container .card {
+        width: calc((100% / 2) - 20px);
+    }
+}
+
+@media (max-width: 767px) {
+    .categories .container .card {
+        width: 90%
+    }
+    .categories .container .cards {
+        justify-content: center;
+    }
+    .categories .container p {
+        max-width: 220px;
+        margin: 0 auto;
+    }
+    .categories .container h1.categoryTitle {
+        font-size: 25px;
+    }
+}

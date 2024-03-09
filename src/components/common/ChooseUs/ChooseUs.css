@@ -1,0 +1,105 @@
+.chooseUs {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.chooseUs .container {
+    display: flex
+}
+.chooseUs .leftChoose,
+.chooseUs .rightChoose {
+    width: 50%;
+}
+.chooseUs .leftChoose img {
+    width: 100%;
+    height: 70%;
+
+}
+.chooseUs .rightChoose .chooseTitle {
+    color: #1661bfd9;
+    text-transform: capitalize;
+}
+.chooseUs .rightChoose .choose-subtitle {
+    color: #808080;
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.chooseUs .rightChoose {
+    padding-left: 1.5rem;
+}
+.chooseUs .rightChoose .titleWithBg {
+    background-color: #1661bfd9;
+    color: #ffffff;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.chooseUs .rightChoose .titleWithBg .textDash {
+    display: block;
+    width: 10px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.chooseUs .rightChoose .titleWithBg .textSpan {
+    color: #fffffff5
+}
+.chooseUs .rightChoose .chooseInfo {
+    display: flex;
+    padding-top: 1rem;
+}
+.chooseUs .rightChoose .chooseInfo .leftChooseInfo {
+    width: 30%;
+    height: 119px;
+}
+.chooseUs .rightChoose .chooseInfo .rightChooseInfo {
+    width: 70%;
+    padding-left: 0.5rem;
+}
+.chooseUs .rightChoose .chooseInfo .leftChooseInfo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.chooseUs .rightChoose .chooseInfo .rightChooseInfo p {
+    color: #808080;
+    font-size: 15px;
+}
+.chooseUs .rightChoose .chooseInfo .rightChooseInfo .firstChoosePara {
+    padding-bottom: 1rem;
+}
+.chooseUs .rightChoose .moreInfo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+.chooseUs .rightChoose .moreInfoContainer {
+    padding-top: 2.5rem;
+}
+.chooseUs .rightChoose .moreInfo span {
+    font-size: 15px;
+    color: #000000bd;
+    padding-left: 0.5rem;
+}
+
+@media (max-width: 1100px) {
+    .chooseUs .rightChoose .choose-subtitle,
+    .chooseUs .rightChoose .chooseInfo .rightChooseInfo p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .chooseUs .container {
+        flex-direction: column;
+    }
+    .chooseUs .leftChoose,
+    .chooseUs .rightChoose {
+    width: 100%;
+   }
+   .chooseUs .rightChoose {
+    padding-top: 50px;
+    padding-left: 0;
+   }
+} 

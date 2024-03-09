@@ -1,0 +1,129 @@
+.about-us {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.about-us .container {
+    display: flex;
+}
+.about-us .left-about, 
+.about-us .right-about {
+    width: 50%;
+}
+.about-us .left-about .aboutus-title ,
+.about-us .left-about .aboutus-para {
+    padding-bottom: 1rem;
+}
+.about-us .left-about .aboutus-para,
+.about-us .left-about .aboutus-item {
+    color: #808080;
+    font-size: 15px;
+}
+.about-us .left-about .aboutus-item {
+    display: flex;
+    align-items: center;
+}
+.about-us .left-about .aboutus-item img {
+    margin-right: 0.5rem;
+}
+.about-us .left-about .aboutus-para {
+    max-width: 400px;
+}
+.about-us .left-about .aboutus-title {
+    color: #1661bfd9;
+}
+.about-us .left-about .aboutus-item {
+    padding-bottom: 0.5rem;
+}
+.about-us .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about-us .info-container .number {
+    color: #1661bfd9;
+}
+.about-us .info-container .info-para {
+    color: #808080;
+    font-size: 15px;
+}
+.aboutus-btns {
+    display: flex;
+}
+.aboutus-btns button {
+    padding: 0.6rem 0.6rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 12px;
+    display: block;
+    width: 110px;
+}
+.aboutus-btns .admission-btn {
+    background-color: #1661bfd9;
+    color: #ffffff;
+    margin-right: 0.5rem;
+}
+.aboutus-btns .learn-btn {
+    border: 1px solid #1661bfd9;
+    color: #1661bfd9;
+    background-color: transparent;
+}
+.about-us .right-about img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    z-index: -1;
+}
+.about-us .right-about .bg-box {
+    width: 300px;
+    height: 266.66px;
+    background-color: #6bb1b13b;
+    position: absolute;
+    top: 7%;
+    right: 0;
+    z-index: -2;
+}
+
+@media (max-width: 900px) {
+    .about-us .right-about img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-us .container {
+        flex-direction: column-reverse;
+    }
+    .about-us .left-about, 
+    .about-us .right-about {
+    width: 100%;
+   }
+   .about-us .left-about {
+    padding-top: 50px;
+   }
+    .about-us .right-about .bg-box {
+        display: none;
+    }
+    .about-us .right-about img {
+        margin: 0 auto;
+    }
+    .about-us .info-container {
+        gap: 1rem;
+    }
+    .about-us .left-about .aboutus-para,
+    .about-us .left-about .aboutus-item {
+        font-size: 14px;
+    }
+    .about-us .info-container .info-para {
+        font-size: 13px;
+    }
+    .about-us .info-container .number {
+        font-size: 18px;
+    }
+}

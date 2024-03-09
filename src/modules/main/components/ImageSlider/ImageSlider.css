@@ -1,0 +1,45 @@
+.imageSlider {
+    padding-top: 1rem;
+}
+.slides-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.slides-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.imageSlider p,
+.imageSlider h5 {
+    text-align: center;
+    font-size: 18px;
+}
+.imageSlider h5 {
+   padding-top: 1rem;
+   padding-bottom: 0.5rem;
+   color: #1661bfd9;
+   
+}
+.imageSlider p {
+    color: #5c5252;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+.imageSlider .dotsContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.imageSlider .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #80808087;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.imageSlider .active {
+    background-color: #1661bfd9;
+}
