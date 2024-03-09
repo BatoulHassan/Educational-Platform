@@ -1,3 +1,3 @@
 export const Routes = {
-    TEACHERS : "/platform/teachers"
+    TEACHERS : "/educational-platform/teachers"
 }

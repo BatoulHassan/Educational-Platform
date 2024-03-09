@@ -31,12 +31,12 @@ const Navbar = () => {
 
         <div className="nav">
           <ul className={toggle ? 'nav-list colList' : 'nav-list'}>
-            <li className='nav-item' onClick={toggleMenue}><NavLink to='/platform'>Home</NavLink></li>
-            <li className='nav-item' onClick={toggleMenue}><NavLink to='/platform/news'>News</NavLink></li>
-            <li className='nav-item' onClick={toggleMenue}><NavLink to='/platform/about'>About</NavLink></li>
-            <li className='nav-item' onClick={toggleMenue}><NavLink to='/platform/courses'>Courses</NavLink></li>
-            <li className='nav-item' onClick={toggleMenue}><NavLink to='/platform/students'>Students</NavLink></li>
-            <li className='nav-item' onClick={toggleMenue}><NavLink to='/platform/teachers'>Teachers</NavLink></li>
+            <li className='nav-item' onClick={toggleMenue}><NavLink to='/educational-platform/'>Home</NavLink></li>
+            <li className='nav-item' onClick={toggleMenue}><NavLink to='/educational-platform/news'>News</NavLink></li>
+            <li className='nav-item' onClick={toggleMenue}><NavLink to='/educational-platform/about'>About</NavLink></li>
+            <li className='nav-item' onClick={toggleMenue}><NavLink to='/educational-platform/courses'>Courses</NavLink></li>
+            <li className='nav-item' onClick={toggleMenue}><NavLink to='/educational-platform/students'>Students</NavLink></li>
+            <li className='nav-item' onClick={toggleMenue}><NavLink to='/educational-platform/teachers'>Teachers</NavLink></li>
             <li className='nav-item' onClick={toggleMenue}>Contact</li>
           </ul>
         </div>

@@ -1,3 +1,3 @@
 export const Routes = {
-    NEWS : "/platform/news"
+    NEWS : "/educational-platform/news"
 }

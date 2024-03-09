@@ -1,4 +1,4 @@
 export const Routes = {
-    COURSES : "/platform/courses",
+    COURSES : "/educational-platform//courses",
 }
 

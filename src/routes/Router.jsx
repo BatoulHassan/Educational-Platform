@@ -8,11 +8,11 @@ import { teachersRoutes } from '../modules/teachers/routes/TeachersRoutes';
 
 export const routes = [
     {
-        path: "/platform",
+        path: "/educational-platform/",
         element: <App />,
         children: [
             {
-                path: "",
+                path: "/educational-platform/",
                 element: <Main />,
             },
             ...newsRoutes,

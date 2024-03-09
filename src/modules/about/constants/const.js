@@ -1,6 +1,6 @@
 
 export const Routes = {
-    ABOUT : "/platform/about"
+    ABOUT : "/educational-platform/about"
 }
 
 

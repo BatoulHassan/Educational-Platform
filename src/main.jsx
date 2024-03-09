@@ -10,6 +10,6 @@ const router = createBrowserRouter(routes);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} basename="/platform"/>
+    <RouterProvider router={router} basename="/educational-platform/"/>
   </React.StrictMode>
 );
